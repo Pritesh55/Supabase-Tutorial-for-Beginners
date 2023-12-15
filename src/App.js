@@ -17,6 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create" element={<Create />} />
+
+        {/* Supabase Step 04.02 :: Route for Update */}
         <Route path="/:id" element={<Update />} />
       </Routes>
     </BrowserRouter>
