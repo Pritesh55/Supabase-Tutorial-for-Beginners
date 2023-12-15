@@ -40,3 +40,14 @@ nav h1 {
   column-gap: 20px;
   flex-wrap: wrap;
 }
+
+.user-input {
+  display: flex;
+  column-gap: 20px;
+  margin: 20px;
+}
+
+.user-input label {
+  min-width: 60px;
+  text-align: right;
+}

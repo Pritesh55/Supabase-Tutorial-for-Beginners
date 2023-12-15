@@ -14,6 +14,8 @@ const Home = () => {
   // Supabase Step 02.02 :: Use the data :: Define useState variables ::
   const [fetchError, setFetchError] = useState(null);
   const [smoothies, setSmoothies] = useState(null);
+  const [orderBy, setOrderBy] = useState('created_at');
+  const [isAsc, setIsAsc] = useState(true);
 
   // Supabase Step 02.03 :: Use the data :: Define useEffect function
   useEffect(() => {
@@ -26,7 +28,8 @@ const Home = () => {
       // .select("All rows")
       const { data, error } = await supabase
         .from("smoothies")
-        .select();
+        .select()
+        .order(orderBy, { ascending: isAsc })
 
       // .from() => table name :: from which table data you want
       // .select() => No arguments :: We want all rows...
@@ -48,12 +51,26 @@ const Home = () => {
     }
 
     fetchSmoothies();
-  }, []);
+  }, [orderBy, isAsc]);
+
+  const handleDelete = (id) => {
+
+    setSmoothies((prevSmoothies) => { return prevSmoothies.filter(prevSm => prevSm.id !== id); });
+  }
 
 
   return (
     <div className="page home">
       <h2>Home</h2>
+
+      <div className="">
+        <button onClick={() => { setOrderBy('id'); setIsAsc(!isAsc) }}> id </button>
+        <button onClick={() => { setOrderBy('title');setIsAsc(!isAsc) }}> title </button>
+        <button onClick={() => { setOrderBy('rating');setIsAsc(!isAsc) }}> rating </button>
+        <button onClick={() => { setOrderBy('created_at');setIsAsc(!isAsc) }}> Reset </button>
+        <span className="">  </span>
+        {orderBy}
+      </div>
 
       {/* Display the error */}
       {
@@ -72,7 +89,7 @@ const Home = () => {
               {/* Move data (Smoothie) to Child component :: */}
 
               {smoothies.map(smoothie => (
-                <SmoothieCard key={smoothie.id} smoothie={smoothie} />
+                <SmoothieCard key={smoothie.id} smoothie={smoothie} onDelete={handleDelete} />
               ))}
 
               {/* ------------------------------------------- */}
