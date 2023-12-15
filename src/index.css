@@ -32,3 +32,11 @@ nav h1 {
   margin: 20px auto;
   padding: 20px;
 }
+
+
+.smoothie-card {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,82 @@
+{
+    "supabaseUrl": "https://qolcipabbvzrxzletvvf.supabase.co",
+    "supabaseKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+    "realtimeUrl": "wss://qolcipabbvzrxzletvvf.supabase.co/realtime/v1",
+    "authUrl": "https://qolcipabbvzrxzletvvf.supabase.co/auth/v1",
+    "storageUrl": "https://qolcipabbvzrxzletvvf.supabase.co/storage/v1",
+    "functionsUrl": "https://qolcipabbvzrxzletvvf.supabase.co/functions/v1",
+    "storageKey": "sb-qolcipabbvzrxzletvvf-auth-token",
+    "headers": {
+        "X-Client-Info": "supabase-js-web/2.39.0"
+    },
+    "auth": {
+        "memoryStorage": null,
+        "stateChangeEmitters": {},
+        "autoRefreshTicker": 2,
+        "refreshingDeferred": null,
+        "initializePromise": {},
+        "detectSessionInUrl": true,
+        "lockAcquired": false,
+        "pendingInLock": [],
+        "broadcastChannel": {},
+        "instanceID": 0,
+        "logDebugMessages": false,
+        "persistSession": true,
+        "storageKey": "sb-qolcipabbvzrxzletvvf-auth-token",
+        "autoRefreshToken": true,
+        "admin": {
+            "url": "https://qolcipabbvzrxzletvvf.supabase.co/auth/v1",
+            "headers": {
+                "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+                "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+                "X-Client-Info": "supabase-js-web/2.39.0"
+            },
+            "mfa": {}
+        },
+        "url": "https://qolcipabbvzrxzletvvf.supabase.co/auth/v1",
+        "headers": {
+            "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+            "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+            "X-Client-Info": "supabase-js-web/2.39.0"
+        },
+        "flowType": "implicit",
+        "mfa": {},
+        "storage": {}
+    },
+    "realtime": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA",
+        "channels": [],
+        "endPoint": "wss://qolcipabbvzrxzletvvf.supabase.co/realtime/v1/websocket",
+        "headers": {
+            "X-Client-Info": "supabase-js-web/2.39.0"
+        },
+        "params": {
+            "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFvbGNpcGFiYnZ6cnh6bGV0dnZmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDI1NjMxMTksImV4cCI6MjAxODEzOTExOX0.WxIBbFU5CwxNKp8LF_82FDKf3IdxG2AZDmND8rTQDPA"
+        },
+        "timeout": 10000,
+        "heartbeatIntervalMs": 30000,
+        "pendingHeartbeatRef": null,
+        "ref": 0,
+        "conn": null,
+        "sendBuffer": [],
+        "serializer": {
+            "HEADER_LENGTH": 1
+        },
+        "stateChangeCallbacks": {
+            "open": [],
+            "close": [],
+            "error": [],
+            "message": []
+        },
+        "reconnectTimer": {
+            "tries": 0
+        }
+    },
+    "rest": {
+        "url": "https://qolcipabbvzrxzletvvf.supabase.co/rest/v1",
+        "headers": {
+            "X-Client-Info": "supabase-js-web/2.39.0"
+        },
+        "schemaName": "public"
+    }
+}
