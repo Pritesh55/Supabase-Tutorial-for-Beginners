@@ -1,5 +1,5 @@
 // ------------------------------------
-// https://github.com/some-earth11/Supa-Smoothies/blob/main/src/config/supabaseClient.js
+// https://github.com/Pritesh55/Supabase-Tutorial-for-Beginners/blob/starter-project/src/supabase/sbClient.js
 // ------------------------------------
 // import { createClient } from '@supabase/supabase-js'
 
